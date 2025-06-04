@@ -60,7 +60,7 @@
         control_layer {
             bindings = <
 &trans  &mt LALT F4  &mt LCTRL RIGHT  &kp END       &none         &trans            &kp LS(C_AC_BACK)  &mt RCTRL PAGE_UP  &mt RCTRL PAGE_DOWN  &kp C_AC_FORWARD  &kp C_PREVIOUS    &trans
-&trans  &kp HOME     &kp BACKSPACE    &kp DELETE    &trans        &trans            &kp LEFT           &kp DOWN           &kp UP_ARROW         &kp RIGHT         &none             &trans
+&trans  &kp HOME     &kp BACKSPACE    &kp DELETE    &kp RC(RS(C)) &kp RC(RS(V))     &kp LEFT           &kp DOWN           &kp UP_ARROW         &kp RIGHT         &none             &trans
 &trans  &bt BT_CLR   &bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2  &mt LCTRL LEFT    &kp C_NEXT         &kp C_MUTE         &kp C_VOLUME_DOWN    &kp C_VOLUME_UP   &kp C_PLAY_PAUSE  &trans
                                       &none         &none         &none             &kp CAPSLOCK       &none              &none
             >;

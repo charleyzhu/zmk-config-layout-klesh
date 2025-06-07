@@ -10,7 +10,7 @@
 #include <dt-bindings/zmk/pointing.h>
 
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1500  // default: 600
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 20  
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 20
 
 / {
     behaviors {
@@ -51,10 +51,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp F9  &kp F10  &kp F11  &kp F12  &kp PAGE_UP      &kp DOWN_ARROW  &kp N7        &kp N8        &kp N9        &trans     &trans
-&trans  &kp F5  &kp F6   &kp F7   &kp F8   &kp INSERT       &kp MINUS       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS   &trans
-&trans  &kp F1  &kp F2   &kp F3   &kp F4   &kp PAGE_DOWN    &kp ASTERISK    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH  &trans
-                         &trans   &trans   &trans           &kp NUMBER_0    &kp PERIOD    &trans
+&trans  &kp F9  &kp F10  &kp F11  &kp F12  &kp PAGE_UP      &kp KP_EQUAL  &kp N7        &kp N8        &kp N9        &trans       &trans
+&trans  &kp F5  &kp F6   &kp F7   &kp F8   &kp INSERT       &kp MINUS     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_PLUS  &trans
+&trans  &kp F1  &kp F2   &kp F3   &kp F4   &kp PAGE_DOWN    &kp ASTERISK  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH    &trans
+                         &trans   &trans   &trans           &kp NUMBER_0  &kp PERIOD    &trans
             >;
         };
 
